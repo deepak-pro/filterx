@@ -1,3 +1,4 @@
+echo "Running filterex on `pwd`"
 temp=`mktemp`
 utemp=`mktemp`
 ls -p | grep -v / |  rev | cut -d "." -f1 | rev > $temp
