@@ -1,5 +1,5 @@
 # filterx
-A tool to separate and sort files to different folder with respect to extension.
+A tool to separate and sort files to different folders with respect to extension.
 
 ![Demo](assets/demo.gif)
 
