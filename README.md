@@ -9,9 +9,9 @@ A tool to separate and sort files to different folders with respect to extension
 ```
 $ chmod +x filterx.sh
 ```
-3. Check into directory (cd) which you want to filter (Note: Make sure the script is not in the directory where you want to run filterx.)
+3. Check into the directory (cd) which you want to filter, and put filterx.sh inside that directory.
 4. Run the script
 ```
-$ ../filterx.sh 
+$ ./filterx.sh 
 ```
->  Considering script is present in parent directory.
+>  Note: This tool will only filter file in the current directory, It will not filter recursively on child directories.
